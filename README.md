@@ -71,30 +71,3 @@ Este repositorio forma parte de mi proceso de aprendizaje en Java y Spring Boot,
 y refleja tanto el contenido del curso como las decisiones técnicas tomadas
 para mantener el proyecto funcional y actualizado.
 
-
-💡 **Esto cambia totalmente la percepción del repo**. Ya no es “un curso”, es un **proyecto de aprendizaje adaptado**.
-
----
-
-## 2️⃣ Subir el proyecto a Git desde IntelliJ (paso a paso)
-
-### 🔹 Paso 1: Inicializar Git
-En IntelliJ:
-
-1. Abre el proyecto
-2. Menú superior → **VCS → Enable Version Control Integration**
-3. Elige **Git**
-4. OK
-
-Verás archivos en rojo (no trackeados).
-
----
-
-### 🔹 Paso 2: Revisar `.gitignore`
-Asegúrate de tener (o crea) un `.gitignore` con al menos:
-
-```gitignore
-/target
-/.idea
-*.iml
-.env
